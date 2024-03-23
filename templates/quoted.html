@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quoted
+{% endblock %}
+
+{% block main %}
+    <h1>
+        Price: {{ q.price | usd }}
+    </h1>
+{% endblock %}
